@@ -163,7 +163,7 @@ function theme_manupulation_scripts() {
 	}
 }
 add_action( 'wp_enqueue_scripts', 'theme_manupulation_scripts' );
-
+// remove_filter( 'the_content', 'wpautop' );
 /**
  * Implement the Custom Header feature.
  */

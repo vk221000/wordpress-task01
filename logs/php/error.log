@@ -269,3 +269,232 @@ Stack trace:
 Stack trace:
 #0 {main}
   thrown in /home/cedcoss/Local Sites/thememanupulation/app/public/wp-content/themes/theme-manupulation/about.php on line 15
+[28-Dec-2020 09:48:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function the_comments() in /home/cedcoss/Local Sites/thememanupulation/app/public/wp-content/themes/theme-manupulation/home.php:166
+Stack trace:
+#0 /home/cedcoss/Local Sites/thememanupulation/app/public/wp-includes/template-loader.php(106): include()
+#1 /home/cedcoss/Local Sites/thememanupulation/app/public/wp-blog-header.php(19): require_once('/home/cedcoss/L...')
+#2 /home/cedcoss/Local Sites/thememanupulation/app/public/index.php(17): require('/home/cedcoss/L...')
+#3 {main}
+  thrown in /home/cedcoss/Local Sites/thememanupulation/app/public/wp-content/themes/theme-manupulation/home.php on line 166
+[28-Dec-2020 10:16:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function comments_count() in /home/cedcoss/Local Sites/thememanupulation/app/public/wp-content/themes/theme-manupulation/page-blogentries.php:67
+Stack trace:
+#0 /home/cedcoss/Local Sites/thememanupulation/app/public/wp-includes/template-loader.php(106): include()
+#1 /home/cedcoss/Local Sites/thememanupulation/app/public/wp-blog-header.php(19): require_once('/home/cedcoss/L...')
+#2 /home/cedcoss/Local Sites/thememanupulation/app/public/index.php(17): require('/home/cedcoss/L...')
+#3 {main}
+  thrown in /home/cedcoss/Local Sites/thememanupulation/app/public/wp-content/themes/theme-manupulation/page-blogentries.php on line 67
+[28-Dec-2020 10:19:32 UTC] PHP Warning:  Use of undefined constant php - assumed 'php' (this will throw an Error in a future version of PHP) in /home/cedcoss/Local Sites/thememanupulation/app/public/wp-content/themes/theme-manupulation/page-blogentries.php on line 69
+[28-Dec-2020 10:19:32 UTC] PHP Stack trace:
+[28-Dec-2020 10:19:32 UTC] PHP   1. {main}() /home/cedcoss/Local Sites/thememanupulation/app/public/index.php:0
+[28-Dec-2020 10:19:32 UTC] PHP   2. require() /home/cedcoss/Local Sites/thememanupulation/app/public/index.php:17
+[28-Dec-2020 10:19:32 UTC] PHP   3. require_once() /home/cedcoss/Local Sites/thememanupulation/app/public/wp-blog-header.php:19
+[28-Dec-2020 10:19:32 UTC] PHP   4. include() /home/cedcoss/Local Sites/thememanupulation/app/public/wp-includes/template-loader.php:106
+[28-Dec-2020 10:20:34 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function the_exerpts() in /home/cedcoss/Local Sites/thememanupulation/app/public/wp-content/themes/theme-manupulation/page-blogentries.php:69
+Stack trace:
+#0 /home/cedcoss/Local Sites/thememanupulation/app/public/wp-includes/template-loader.php(106): include()
+#1 /home/cedcoss/Local Sites/thememanupulation/app/public/wp-blog-header.php(19): require_once('/home/cedcoss/L...')
+#2 /home/cedcoss/Local Sites/thememanupulation/app/public/index.php(17): require('/home/cedcoss/L...')
+#3 {main}
+  thrown in /home/cedcoss/Local Sites/thememanupulation/app/public/wp-content/themes/theme-manupulation/page-blogentries.php on line 69
+[28-Dec-2020 10:21:05 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function the_exerpt() in /home/cedcoss/Local Sites/thememanupulation/app/public/wp-content/themes/theme-manupulation/page-blogentries.php:69
+Stack trace:
+#0 /home/cedcoss/Local Sites/thememanupulation/app/public/wp-includes/template-loader.php(106): include()
+#1 /home/cedcoss/Local Sites/thememanupulation/app/public/wp-blog-header.php(19): require_once('/home/cedcoss/L...')
+#2 /home/cedcoss/Local Sites/thememanupulation/app/public/index.php(17): require('/home/cedcoss/L...')
+#3 {main}
+  thrown in /home/cedcoss/Local Sites/thememanupulation/app/public/wp-content/themes/theme-manupulation/page-blogentries.php on line 69
+[28-Dec-2020 10:21:07 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function the_exerpt() in /home/cedcoss/Local Sites/thememanupulation/app/public/wp-content/themes/theme-manupulation/page-blogentries.php:69
+Stack trace:
+#0 /home/cedcoss/Local Sites/thememanupulation/app/public/wp-includes/template-loader.php(106): include()
+#1 /home/cedcoss/Local Sites/thememanupulation/app/public/wp-blog-header.php(19): require_once('/home/cedcoss/L...')
+#2 /home/cedcoss/Local Sites/thememanupulation/app/public/index.php(17): require('/home/cedcoss/L...')
+#3 {main}
+  thrown in /home/cedcoss/Local Sites/thememanupulation/app/public/wp-content/themes/theme-manupulation/page-blogentries.php on line 69
+[28-Dec-2020 10:21:07 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function the_exerpt() in /home/cedcoss/Local Sites/thememanupulation/app/public/wp-content/themes/theme-manupulation/page-blogentries.php:69
+Stack trace:
+#0 /home/cedcoss/Local Sites/thememanupulation/app/public/wp-includes/template-loader.php(106): include()
+#1 /home/cedcoss/Local Sites/thememanupulation/app/public/wp-blog-header.php(19): require_once('/home/cedcoss/L...')
+#2 /home/cedcoss/Local Sites/thememanupulation/app/public/index.php(17): require('/home/cedcoss/L...')
+#3 {main}
+  thrown in /home/cedcoss/Local Sites/thememanupulation/app/public/wp-content/themes/theme-manupulation/page-blogentries.php on line 69
+[28-Dec-2020 10:21:07 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function the_exerpt() in /home/cedcoss/Local Sites/thememanupulation/app/public/wp-content/themes/theme-manupulation/page-blogentries.php:69
+Stack trace:
+#0 /home/cedcoss/Local Sites/thememanupulation/app/public/wp-includes/template-loader.php(106): include()
+#1 /home/cedcoss/Local Sites/thememanupulation/app/public/wp-blog-header.php(19): require_once('/home/cedcoss/L...')
+#2 /home/cedcoss/Local Sites/thememanupulation/app/public/index.php(17): require('/home/cedcoss/L...')
+#3 {main}
+  thrown in /home/cedcoss/Local Sites/thememanupulation/app/public/wp-content/themes/theme-manupulation/page-blogentries.php on line 69
+[28-Dec-2020 10:21:07 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function the_exerpt() in /home/cedcoss/Local Sites/thememanupulation/app/public/wp-content/themes/theme-manupulation/page-blogentries.php:69
+Stack trace:
+#0 /home/cedcoss/Local Sites/thememanupulation/app/public/wp-includes/template-loader.php(106): include()
+#1 /home/cedcoss/Local Sites/thememanupulation/app/public/wp-blog-header.php(19): require_once('/home/cedcoss/L...')
+#2 /home/cedcoss/Local Sites/thememanupulation/app/public/index.php(17): require('/home/cedcoss/L...')
+#3 {main}
+  thrown in /home/cedcoss/Local Sites/thememanupulation/app/public/wp-content/themes/theme-manupulation/page-blogentries.php on line 69
+[28-Dec-2020 10:21:07 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function the_exerpt() in /home/cedcoss/Local Sites/thememanupulation/app/public/wp-content/themes/theme-manupulation/page-blogentries.php:69
+Stack trace:
+#0 /home/cedcoss/Local Sites/thememanupulation/app/public/wp-includes/template-loader.php(106): include()
+#1 /home/cedcoss/Local Sites/thememanupulation/app/public/wp-blog-header.php(19): require_once('/home/cedcoss/L...')
+#2 /home/cedcoss/Local Sites/thememanupulation/app/public/index.php(17): require('/home/cedcoss/L...')
+#3 {main}
+  thrown in /home/cedcoss/Local Sites/thememanupulation/app/public/wp-content/themes/theme-manupulation/page-blogentries.php on line 69
+[28-Dec-2020 10:36:52 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function the_post_content() in /home/cedcoss/Local Sites/thememanupulation/app/public/wp-content/themes/theme-manupulation/page-postdetails.php:69
+Stack trace:
+#0 /home/cedcoss/Local Sites/thememanupulation/app/public/wp-includes/template-loader.php(106): include()
+#1 /home/cedcoss/Local Sites/thememanupulation/app/public/wp-blog-header.php(19): require_once('/home/cedcoss/L...')
+#2 /home/cedcoss/Local Sites/thememanupulation/app/public/index.php(17): require('/home/cedcoss/L...')
+#3 {main}
+  thrown in /home/cedcoss/Local Sites/thememanupulation/app/public/wp-content/themes/theme-manupulation/page-postdetails.php on line 69
+[28-Dec-2020 10:37:01 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function post_content() in /home/cedcoss/Local Sites/thememanupulation/app/public/wp-content/themes/theme-manupulation/page-postdetails.php:69
+Stack trace:
+#0 /home/cedcoss/Local Sites/thememanupulation/app/public/wp-includes/template-loader.php(106): include()
+#1 /home/cedcoss/Local Sites/thememanupulation/app/public/wp-blog-header.php(19): require_once('/home/cedcoss/L...')
+#2 /home/cedcoss/Local Sites/thememanupulation/app/public/index.php(17): require('/home/cedcoss/L...')
+#3 {main}
+  thrown in /home/cedcoss/Local Sites/thememanupulation/app/public/wp-content/themes/theme-manupulation/page-postdetails.php on line 69
+[28-Dec-2020 10:37:51 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_post_content() in /home/cedcoss/Local Sites/thememanupulation/app/public/wp-content/themes/theme-manupulation/page-postdetails.php:69
+Stack trace:
+#0 /home/cedcoss/Local Sites/thememanupulation/app/public/wp-includes/template-loader.php(106): include()
+#1 /home/cedcoss/Local Sites/thememanupulation/app/public/wp-blog-header.php(19): require_once('/home/cedcoss/L...')
+#2 /home/cedcoss/Local Sites/thememanupulation/app/public/index.php(17): require('/home/cedcoss/L...')
+#3 {main}
+  thrown in /home/cedcoss/Local Sites/thememanupulation/app/public/wp-content/themes/theme-manupulation/page-postdetails.php on line 69
+[28-Dec-2020 10:38:31 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function post_content() in /home/cedcoss/Local Sites/thememanupulation/app/public/wp-content/themes/theme-manupulation/page-postdetails.php:69
+Stack trace:
+#0 /home/cedcoss/Local Sites/thememanupulation/app/public/wp-includes/template-loader.php(106): include()
+#1 /home/cedcoss/Local Sites/thememanupulation/app/public/wp-blog-header.php(19): require_once('/home/cedcoss/L...')
+#2 /home/cedcoss/Local Sites/thememanupulation/app/public/index.php(17): require('/home/cedcoss/L...')
+#3 {main}
+  thrown in /home/cedcoss/Local Sites/thememanupulation/app/public/wp-content/themes/theme-manupulation/page-postdetails.php on line 69
+[28-Dec-2020 10:48:58 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_post_content() in /home/cedcoss/Local Sites/thememanupulation/app/public/wp-content/themes/theme-manupulation/page-postdetails.php:69
+Stack trace:
+#0 /home/cedcoss/Local Sites/thememanupulation/app/public/wp-includes/template-loader.php(106): include()
+#1 /home/cedcoss/Local Sites/thememanupulation/app/public/wp-blog-header.php(19): require_once('/home/cedcoss/L...')
+#2 /home/cedcoss/Local Sites/thememanupulation/app/public/index.php(17): require('/home/cedcoss/L...')
+#3 {main}
+  thrown in /home/cedcoss/Local Sites/thememanupulation/app/public/wp-content/themes/theme-manupulation/page-postdetails.php on line 69
+[28-Dec-2020 10:57:21 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/cedcoss/Local Sites/thememanupulation/app/public/wp-content/themes/theme-manupulation/page-postdetails.php on line 255
+[28-Dec-2020 11:08:18 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_post_id() in /home/cedcoss/Local Sites/thememanupulation/app/public/wp-content/themes/theme-manupulation/page-blogentries.php:64
+Stack trace:
+#0 /home/cedcoss/Local Sites/thememanupulation/app/public/wp-includes/template-loader.php(106): include()
+#1 /home/cedcoss/Local Sites/thememanupulation/app/public/wp-blog-header.php(19): require_once('/home/cedcoss/L...')
+#2 /home/cedcoss/Local Sites/thememanupulation/app/public/index.php(17): require('/home/cedcoss/L...')
+#3 {main}
+  thrown in /home/cedcoss/Local Sites/thememanupulation/app/public/wp-content/themes/theme-manupulation/page-blogentries.php on line 64
+[28-Dec-2020 12:56:05 UTC] PHP Fatal error:  Uncaught Error: Function name must be a string in /home/cedcoss/Local Sites/thememanupulation/app/public/wp-content/themes/theme-manupulation/single-post.php:200
+Stack trace:
+#0 /home/cedcoss/Local Sites/thememanupulation/app/public/wp-includes/template-loader.php(106): include()
+#1 /home/cedcoss/Local Sites/thememanupulation/app/public/wp-blog-header.php(19): require_once('/home/cedcoss/L...')
+#2 /home/cedcoss/Local Sites/thememanupulation/app/public/index.php(17): require('/home/cedcoss/L...')
+#3 {main}
+  thrown in /home/cedcoss/Local Sites/thememanupulation/app/public/wp-content/themes/theme-manupulation/single-post.php on line 200
+[28-Dec-2020 12:56:06 UTC] PHP Fatal error:  Uncaught Error: Function name must be a string in /home/cedcoss/Local Sites/thememanupulation/app/public/wp-content/themes/theme-manupulation/single-post.php:200
+Stack trace:
+#0 /home/cedcoss/Local Sites/thememanupulation/app/public/wp-includes/template-loader.php(106): include()
+#1 /home/cedcoss/Local Sites/thememanupulation/app/public/wp-blog-header.php(19): require_once('/home/cedcoss/L...')
+#2 /home/cedcoss/Local Sites/thememanupulation/app/public/index.php(17): require('/home/cedcoss/L...')
+#3 {main}
+  thrown in /home/cedcoss/Local Sites/thememanupulation/app/public/wp-content/themes/theme-manupulation/single-post.php on line 200
+[28-Dec-2020 12:56:07 UTC] PHP Fatal error:  Uncaught Error: Function name must be a string in /home/cedcoss/Local Sites/thememanupulation/app/public/wp-content/themes/theme-manupulation/single-post.php:200
+Stack trace:
+#0 /home/cedcoss/Local Sites/thememanupulation/app/public/wp-includes/template-loader.php(106): include()
+#1 /home/cedcoss/Local Sites/thememanupulation/app/public/wp-blog-header.php(19): require_once('/home/cedcoss/L...')
+#2 /home/cedcoss/Local Sites/thememanupulation/app/public/index.php(17): require('/home/cedcoss/L...')
+#3 {main}
+  thrown in /home/cedcoss/Local Sites/thememanupulation/app/public/wp-content/themes/theme-manupulation/single-post.php on line 200
+[28-Dec-2020 12:56:08 UTC] PHP Fatal error:  Uncaught Error: Function name must be a string in /home/cedcoss/Local Sites/thememanupulation/app/public/wp-content/themes/theme-manupulation/single-post.php:200
+Stack trace:
+#0 /home/cedcoss/Local Sites/thememanupulation/app/public/wp-includes/template-loader.php(106): include()
+#1 /home/cedcoss/Local Sites/thememanupulation/app/public/wp-blog-header.php(19): require_once('/home/cedcoss/L...')
+#2 /home/cedcoss/Local Sites/thememanupulation/app/public/index.php(17): require('/home/cedcoss/L...')
+#3 {main}
+  thrown in /home/cedcoss/Local Sites/thememanupulation/app/public/wp-content/themes/theme-manupulation/single-post.php on line 200
+[28-Dec-2020 12:56:09 UTC] PHP Fatal error:  Uncaught Error: Function name must be a string in /home/cedcoss/Local Sites/thememanupulation/app/public/wp-content/themes/theme-manupulation/single-post.php:200
+Stack trace:
+#0 /home/cedcoss/Local Sites/thememanupulation/app/public/wp-includes/template-loader.php(106): include()
+#1 /home/cedcoss/Local Sites/thememanupulation/app/public/wp-blog-header.php(19): require_once('/home/cedcoss/L...')
+#2 /home/cedcoss/Local Sites/thememanupulation/app/public/index.php(17): require('/home/cedcoss/L...')
+#3 {main}
+  thrown in /home/cedcoss/Local Sites/thememanupulation/app/public/wp-content/themes/theme-manupulation/single-post.php on line 200
+[28-Dec-2020 12:56:09 UTC] PHP Fatal error:  Uncaught Error: Function name must be a string in /home/cedcoss/Local Sites/thememanupulation/app/public/wp-content/themes/theme-manupulation/single-post.php:200
+Stack trace:
+#0 /home/cedcoss/Local Sites/thememanupulation/app/public/wp-includes/template-loader.php(106): include()
+#1 /home/cedcoss/Local Sites/thememanupulation/app/public/wp-blog-header.php(19): require_once('/home/cedcoss/L...')
+#2 /home/cedcoss/Local Sites/thememanupulation/app/public/index.php(17): require('/home/cedcoss/L...')
+#3 {main}
+  thrown in /home/cedcoss/Local Sites/thememanupulation/app/public/wp-content/themes/theme-manupulation/single-post.php on line 200
+[28-Dec-2020 12:56:09 UTC] PHP Fatal error:  Uncaught Error: Function name must be a string in /home/cedcoss/Local Sites/thememanupulation/app/public/wp-content/themes/theme-manupulation/single-post.php:200
+Stack trace:
+#0 /home/cedcoss/Local Sites/thememanupulation/app/public/wp-includes/template-loader.php(106): include()
+#1 /home/cedcoss/Local Sites/thememanupulation/app/public/wp-blog-header.php(19): require_once('/home/cedcoss/L...')
+#2 /home/cedcoss/Local Sites/thememanupulation/app/public/index.php(17): require('/home/cedcoss/L...')
+#3 {main}
+  thrown in /home/cedcoss/Local Sites/thememanupulation/app/public/wp-content/themes/theme-manupulation/single-post.php on line 200
+[28-Dec-2020 12:56:09 UTC] PHP Fatal error:  Uncaught Error: Function name must be a string in /home/cedcoss/Local Sites/thememanupulation/app/public/wp-content/themes/theme-manupulation/single-post.php:200
+Stack trace:
+#0 /home/cedcoss/Local Sites/thememanupulation/app/public/wp-includes/template-loader.php(106): include()
+#1 /home/cedcoss/Local Sites/thememanupulation/app/public/wp-blog-header.php(19): require_once('/home/cedcoss/L...')
+#2 /home/cedcoss/Local Sites/thememanupulation/app/public/index.php(17): require('/home/cedcoss/L...')
+#3 {main}
+  thrown in /home/cedcoss/Local Sites/thememanupulation/app/public/wp-content/themes/theme-manupulation/single-post.php on line 200
+[28-Dec-2020 12:56:10 UTC] PHP Fatal error:  Uncaught Error: Function name must be a string in /home/cedcoss/Local Sites/thememanupulation/app/public/wp-content/themes/theme-manupulation/single-post.php:200
+Stack trace:
+#0 /home/cedcoss/Local Sites/thememanupulation/app/public/wp-includes/template-loader.php(106): include()
+#1 /home/cedcoss/Local Sites/thememanupulation/app/public/wp-blog-header.php(19): require_once('/home/cedcoss/L...')
+#2 /home/cedcoss/Local Sites/thememanupulation/app/public/index.php(17): require('/home/cedcoss/L...')
+#3 {main}
+  thrown in /home/cedcoss/Local Sites/thememanupulation/app/public/wp-content/themes/theme-manupulation/single-post.php on line 200
+[28-Dec-2020 12:56:10 UTC] PHP Fatal error:  Uncaught Error: Function name must be a string in /home/cedcoss/Local Sites/thememanupulation/app/public/wp-content/themes/theme-manupulation/single-post.php:200
+Stack trace:
+#0 /home/cedcoss/Local Sites/thememanupulation/app/public/wp-includes/template-loader.php(106): include()
+#1 /home/cedcoss/Local Sites/thememanupulation/app/public/wp-blog-header.php(19): require_once('/home/cedcoss/L...')
+#2 /home/cedcoss/Local Sites/thememanupulation/app/public/index.php(17): require('/home/cedcoss/L...')
+#3 {main}
+  thrown in /home/cedcoss/Local Sites/thememanupulation/app/public/wp-content/themes/theme-manupulation/single-post.php on line 200
+[28-Dec-2020 12:56:10 UTC] PHP Fatal error:  Uncaught Error: Function name must be a string in /home/cedcoss/Local Sites/thememanupulation/app/public/wp-content/themes/theme-manupulation/single-post.php:200
+Stack trace:
+#0 /home/cedcoss/Local Sites/thememanupulation/app/public/wp-includes/template-loader.php(106): include()
+#1 /home/cedcoss/Local Sites/thememanupulation/app/public/wp-blog-header.php(19): require_once('/home/cedcoss/L...')
+#2 /home/cedcoss/Local Sites/thememanupulation/app/public/index.php(17): require('/home/cedcoss/L...')
+#3 {main}
+  thrown in /home/cedcoss/Local Sites/thememanupulation/app/public/wp-content/themes/theme-manupulation/single-post.php on line 200
+[28-Dec-2020 12:56:10 UTC] PHP Fatal error:  Uncaught Error: Function name must be a string in /home/cedcoss/Local Sites/thememanupulation/app/public/wp-content/themes/theme-manupulation/single-post.php:200
+Stack trace:
+#0 /home/cedcoss/Local Sites/thememanupulation/app/public/wp-includes/template-loader.php(106): include()
+#1 /home/cedcoss/Local Sites/thememanupulation/app/public/wp-blog-header.php(19): require_once('/home/cedcoss/L...')
+#2 /home/cedcoss/Local Sites/thememanupulation/app/public/index.php(17): require('/home/cedcoss/L...')
+#3 {main}
+  thrown in /home/cedcoss/Local Sites/thememanupulation/app/public/wp-content/themes/theme-manupulation/single-post.php on line 200
+[28-Dec-2020 12:56:11 UTC] PHP Fatal error:  Uncaught Error: Function name must be a string in /home/cedcoss/Local Sites/thememanupulation/app/public/wp-content/themes/theme-manupulation/single-post.php:200
+Stack trace:
+#0 /home/cedcoss/Local Sites/thememanupulation/app/public/wp-includes/template-loader.php(106): include()
+#1 /home/cedcoss/Local Sites/thememanupulation/app/public/wp-blog-header.php(19): require_once('/home/cedcoss/L...')
+#2 /home/cedcoss/Local Sites/thememanupulation/app/public/index.php(17): require('/home/cedcoss/L...')
+#3 {main}
+  thrown in /home/cedcoss/Local Sites/thememanupulation/app/public/wp-content/themes/theme-manupulation/single-post.php on line 200
+[28-Dec-2020 12:56:11 UTC] PHP Fatal error:  Uncaught Error: Function name must be a string in /home/cedcoss/Local Sites/thememanupulation/app/public/wp-content/themes/theme-manupulation/single-post.php:200
+Stack trace:
+#0 /home/cedcoss/Local Sites/thememanupulation/app/public/wp-includes/template-loader.php(106): include()
+#1 /home/cedcoss/Local Sites/thememanupulation/app/public/wp-blog-header.php(19): require_once('/home/cedcoss/L...')
+#2 /home/cedcoss/Local Sites/thememanupulation/app/public/index.php(17): require('/home/cedcoss/L...')
+#3 {main}
+  thrown in /home/cedcoss/Local Sites/thememanupulation/app/public/wp-content/themes/theme-manupulation/single-post.php on line 200
+[28-Dec-2020 12:56:11 UTC] PHP Fatal error:  Uncaught Error: Function name must be a string in /home/cedcoss/Local Sites/thememanupulation/app/public/wp-content/themes/theme-manupulation/single-post.php:200
+Stack trace:
+#0 /home/cedcoss/Local Sites/thememanupulation/app/public/wp-includes/template-loader.php(106): include()
+#1 /home/cedcoss/Local Sites/thememanupulation/app/public/wp-blog-header.php(19): require_once('/home/cedcoss/L...')
+#2 /home/cedcoss/Local Sites/thememanupulation/app/public/index.php(17): require('/home/cedcoss/L...')
+#3 {main}
+  thrown in /home/cedcoss/Local Sites/thememanupulation/app/public/wp-content/themes/theme-manupulation/single-post.php on line 200
+[28-Dec-2020 13:03:53 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/cedcoss/Local Sites/thememanupulation/app/public/wp-content/themes/theme-manupulation/page-blogentries.php on line 171
+[28-Dec-2020 13:05:13 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in /home/cedcoss/Local Sites/thememanupulation/app/public/wp-content/themes/theme-manupulation/page-blogentries.php on line 171
+[28-Dec-2020 13:05:18 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in /home/cedcoss/Local Sites/thememanupulation/app/public/wp-content/themes/theme-manupulation/page-blogentries.php on line 171
+[28-Dec-2020 13:09:03 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function the_conetent() in /home/cedcoss/Local Sites/thememanupulation/app/public/wp-content/themes/theme-manupulation/page-blogentries.php:69
+Stack trace:
+#0 /home/cedcoss/Local Sites/thememanupulation/app/public/wp-includes/template-loader.php(106): include()
+#1 /home/cedcoss/Local Sites/thememanupulation/app/public/wp-blog-header.php(19): require_once('/home/cedcoss/L...')
+#2 /home/cedcoss/Local Sites/thememanupulation/app/public/index.php(17): require('/home/cedcoss/L...')
+#3 {main}
+  thrown in /home/cedcoss/Local Sites/thememanupulation/app/public/wp-content/themes/theme-manupulation/page-blogentries.php on line 69
+[28-Dec-2020 14:35:44 UTC] PHP Parse error:  syntax error, unexpected '" alt='default-image'>;?>' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home/cedcoss/Local Sites/thememanupulation/app/public/wp-content/themes/theme-manupulation/front-page.php on line 29
+[28-Dec-2020 14:36:10 UTC] PHP Parse error:  syntax error, unexpected '">;?>' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home/cedcoss/Local Sites/thememanupulation/app/public/wp-content/themes/theme-manupulation/front-page.php on line 29

@@ -1,0 +1,271 @@
+[24-Dec-2020 09:02:25 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function add_action(), 1 passed in /home/cedcoss/Local Sites/thememanupulation/app/public/wp-content/themes/theme-manupulation/header.php on line 21 and at least 2 expected in /home/cedcoss/Local Sites/thememanupulation/app/public/wp-includes/plugin.php:409
+Stack trace:
+#0 /home/cedcoss/Local Sites/thememanupulation/app/public/wp-content/themes/theme-manupulation/header.php(21): add_action('wp_head')
+#1 /home/cedcoss/Local Sites/thememanupulation/app/public/wp-includes/template.php(730): require_once('/home/cedcoss/L...')
+#2 /home/cedcoss/Local Sites/thememanupulation/app/public/wp-includes/template.php(676): load_template('/home/cedcoss/L...', true, Array)
+#3 /home/cedcoss/Local Sites/thememanupulation/app/public/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#4 /home/cedcoss/Local Sites/thememanupulation/app/public/wp-content/themes/theme-manupulation/index.php(15): get_header()
+#5 /home/cedcoss/Local Sites/thememanupulation/ in /home/cedcoss/Local Sites/thememanupulation/app/public/wp-includes/plugin.php on line 409
+[24-Dec-2020 09:32:20 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/cedcoss/Local Sites/thememanupulation/app/public/wp-content/themes/theme-manupulation/functions.php on line 147
+[24-Dec-2020 09:34:20 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/cedcoss/Local Sites/thememanupulation/app/public/wp-content/themes/theme-manupulation/functions.php on line 147
+[24-Dec-2020 09:40:21 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/cedcoss/Local Sites/thememanupulation/app/public/wp-content/themes/theme-manupulation/functions.php on line 149
+[24-Dec-2020 09:42:22 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/cedcoss/Local Sites/thememanupulation/app/public/wp-content/themes/theme-manupulation/functions.php on line 150
+[24-Dec-2020 13:26:59 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/cedcoss/Local Sites/thememanupulation/app/public/wp-content/themes/theme-manupulation/functions.php on line 153
+[24-Dec-2020 13:42:16 UTC] PHP Warning:  Use of undefined constant get - assumed 'get' (this will throw an Error in a future version of PHP) in /home/cedcoss/Local Sites/thememanupulation/app/public/wp-content/themes/test/header.php on line 95
+[24-Dec-2020 13:42:16 UTC] PHP Stack trace:
+[24-Dec-2020 13:42:16 UTC] PHP   1. {main}() /home/cedcoss/Local Sites/thememanupulation/app/public/index.php:0
+[24-Dec-2020 13:42:16 UTC] PHP   2. require() /home/cedcoss/Local Sites/thememanupulation/app/public/index.php:17
+[24-Dec-2020 13:42:16 UTC] PHP   3. require_once() /home/cedcoss/Local Sites/thememanupulation/app/public/wp-blog-header.php:19
+[24-Dec-2020 13:42:16 UTC] PHP   4. include() /home/cedcoss/Local Sites/thememanupulation/app/public/wp-includes/template-loader.php:106
+[24-Dec-2020 13:42:16 UTC] PHP   5. get_header() /home/cedcoss/Local Sites/thememanupulation/app/public/wp-content/themes/test/404.php:10
+[24-Dec-2020 13:42:16 UTC] PHP   6. locate_template() /home/cedcoss/Local Sites/thememanupulation/app/public/wp-includes/general-template.php:48
+[24-Dec-2020 13:42:16 UTC] PHP   7. load_template() /home/cedcoss/Local Sites/thememanupulation/app/public/wp-includes/template.php:676
+[24-Dec-2020 13:42:16 UTC] PHP   8. require_once() /home/cedcoss/Local Sites/thememanupulation/app/public/wp-includes/template.php:730
+[24-Dec-2020 13:42:16 UTC] PHP Warning:  Use of undefined constant get - assumed 'get' (this will throw an Error in a future version of PHP) in /home/cedcoss/Local Sites/thememanupulation/app/public/wp-content/themes/test/header.php on line 95
+[24-Dec-2020 13:42:16 UTC] PHP Stack trace:
+[24-Dec-2020 13:42:16 UTC] PHP   1. {main}() /home/cedcoss/Local Sites/thememanupulation/app/public/index.php:0
+[24-Dec-2020 13:42:16 UTC] PHP   2. require() /home/cedcoss/Local Sites/thememanupulation/app/public/index.php:17
+[24-Dec-2020 13:42:16 UTC] PHP   3. require_once() /home/cedcoss/Local Sites/thememanupulation/app/public/wp-blog-header.php:19
+[24-Dec-2020 13:42:16 UTC] PHP   4. include() /home/cedcoss/Local Sites/thememanupulation/app/public/wp-includes/template-loader.php:106
+[24-Dec-2020 13:42:16 UTC] PHP   5. get_header() /home/cedcoss/Local Sites/thememanupulation/app/public/wp-content/themes/test/404.php:10
+[24-Dec-2020 13:42:16 UTC] PHP   6. locate_template() /home/cedcoss/Local Sites/thememanupulation/app/public/wp-includes/general-template.php:48
+[24-Dec-2020 13:42:16 UTC] PHP   7. load_template() /home/cedcoss/Local Sites/thememanupulation/app/public/wp-includes/template.php:676
+[24-Dec-2020 13:42:16 UTC] PHP   8. require_once() /home/cedcoss/Local Sites/thememanupulation/app/public/wp-includes/template.php:730
+[24-Dec-2020 13:42:16 UTC] PHP Warning:  Use of undefined constant get - assumed 'get' (this will throw an Error in a future version of PHP) in /home/cedcoss/Local Sites/thememanupulation/app/public/wp-content/themes/test/header.php on line 95
+[24-Dec-2020 13:42:16 UTC] PHP Stack trace:
+[24-Dec-2020 13:42:16 UTC] PHP   1. {main}() /home/cedcoss/Local Sites/thememanupulation/app/public/index.php:0
+[24-Dec-2020 13:42:16 UTC] PHP   2. require() /home/cedcoss/Local Sites/thememanupulation/app/public/index.php:17
+[24-Dec-2020 13:42:16 UTC] PHP   3. require_once() /home/cedcoss/Local Sites/thememanupulation/app/public/wp-blog-header.php:19
+[24-Dec-2020 13:42:16 UTC] PHP   4. include() /home/cedcoss/Local Sites/thememanupulation/app/public/wp-includes/template-loader.php:106
+[24-Dec-2020 13:42:16 UTC] PHP   5. get_header() /home/cedcoss/Local Sites/thememanupulation/app/public/wp-content/themes/test/404.php:10
+[24-Dec-2020 13:42:16 UTC] PHP   6. locate_template() /home/cedcoss/Local Sites/thememanupulation/app/public/wp-includes/general-template.php:48
+[24-Dec-2020 13:42:16 UTC] PHP   7. load_template() /home/cedcoss/Local Sites/thememanupulation/app/public/wp-includes/template.php:676
+[24-Dec-2020 13:42:16 UTC] PHP   8. require_once() /home/cedcoss/Local Sites/thememanupulation/app/public/wp-includes/template.php:730
+[24-Dec-2020 13:42:16 UTC] PHP Warning:  Use of undefined constant get - assumed 'get' (this will throw an Error in a future version of PHP) in /home/cedcoss/Local Sites/thememanupulation/app/public/wp-content/themes/test/header.php on line 95
+[24-Dec-2020 13:42:16 UTC] PHP Warning:  Use of undefined constant get - assumed 'get' (this will throw an Error in a future version of PHP) in /home/cedcoss/Local Sites/thememanupulation/app/public/wp-content/themes/test/header.php on line 95
+[24-Dec-2020 13:42:16 UTC] PHP Stack trace:
+[24-Dec-2020 13:42:16 UTC] PHP Stack trace:
+[24-Dec-2020 13:42:16 UTC] PHP   1. {main}() /home/cedcoss/Local Sites/thememanupulation/app/public/index.php:0
+[24-Dec-2020 13:42:16 UTC] PHP   1. {main}() /home/cedcoss/Local Sites/thememanupulation/app/public/index.php:0
+[24-Dec-2020 13:42:16 UTC] PHP   2. require() /home/cedcoss/Local Sites/thememanupulation/app/public/index.php:17
+[24-Dec-2020 13:42:16 UTC] PHP   2. require() /home/cedcoss/Local Sites/thememanupulation/app/public/index.php:17
+[24-Dec-2020 13:42:16 UTC] PHP   3. require_once() /home/cedcoss/Local Sites/thememanupulation/app/public/wp-blog-header.php:19
+[24-Dec-2020 13:42:16 UTC] PHP   3. require_once() /home/cedcoss/Local Sites/thememanupulation/app/public/wp-blog-header.php:19
+[24-Dec-2020 13:42:16 UTC] PHP   4. include() /home/cedcoss/Local Sites/thememanupulation/app/public/wp-includes/template-loader.php:106
+[24-Dec-2020 13:42:16 UTC] PHP   4. include() /home/cedcoss/Local Sites/thememanupulation/app/public/wp-includes/template-loader.php:106
+[24-Dec-2020 13:42:16 UTC] PHP   5. get_header() /home/cedcoss/Local Sites/thememanupulation/app/public/wp-content/themes/test/404.php:10
+[24-Dec-2020 13:42:16 UTC] PHP   5. get_header() /home/cedcoss/Local Sites/thememanupulation/app/public/wp-content/themes/test/404.php:10
+[24-Dec-2020 13:42:16 UTC] PHP   6. locate_template() /home/cedcoss/Local Sites/thememanupulation/app/public/wp-includes/general-template.php:48
+[24-Dec-2020 13:42:16 UTC] PHP   6. locate_template() /home/cedcoss/Local Sites/thememanupulation/app/public/wp-includes/general-template.php:48
+[24-Dec-2020 13:42:16 UTC] PHP   7. load_template() /home/cedcoss/Local Sites/thememanupulation/app/public/wp-includes/template.php:676
+[24-Dec-2020 13:42:16 UTC] PHP   7. load_template() /home/cedcoss/Local Sites/thememanupulation/app/public/wp-includes/template.php:676
+[24-Dec-2020 13:42:16 UTC] PHP   8. require_once() /home/cedcoss/Local Sites/thememanupulation/app/public/wp-includes/template.php:730
+[24-Dec-2020 13:42:16 UTC] PHP   8. require_once() /home/cedcoss/Local Sites/thememanupulation/app/public/wp-includes/template.php:730
+[24-Dec-2020 13:42:16 UTC] PHP Warning:  Use of undefined constant get - assumed 'get' (this will throw an Error in a future version of PHP) in /home/cedcoss/Local Sites/thememanupulation/app/public/wp-content/themes/test/header.php on line 95
+[24-Dec-2020 13:42:16 UTC] PHP Stack trace:
+[24-Dec-2020 13:42:16 UTC] PHP   1. {main}() /home/cedcoss/Local Sites/thememanupulation/app/public/index.php:0
+[24-Dec-2020 13:42:16 UTC] PHP   2. require() /home/cedcoss/Local Sites/thememanupulation/app/public/index.php:17
+[24-Dec-2020 13:42:16 UTC] PHP   3. require_once() /home/cedcoss/Local Sites/thememanupulation/app/public/wp-blog-header.php:19
+[24-Dec-2020 13:42:16 UTC] PHP   4. include() /home/cedcoss/Local Sites/thememanupulation/app/public/wp-includes/template-loader.php:106
+[24-Dec-2020 13:42:16 UTC] PHP   5. get_header() /home/cedcoss/Local Sites/thememanupulation/app/public/wp-content/themes/test/404.php:10
+[24-Dec-2020 13:42:16 UTC] PHP   6. locate_template() /home/cedcoss/Local Sites/thememanupulation/app/public/wp-includes/general-template.php:48
+[24-Dec-2020 13:42:16 UTC] PHP   7. load_template() /home/cedcoss/Local Sites/thememanupulation/app/public/wp-includes/template.php:676
+[24-Dec-2020 13:42:16 UTC] PHP   8. require_once() /home/cedcoss/Local Sites/thememanupulation/app/public/wp-includes/template.php:730
+[24-Dec-2020 13:42:16 UTC] PHP Warning:  Use of undefined constant get - assumed 'get' (this will throw an Error in a future version of PHP) in /home/cedcoss/Local Sites/thememanupulation/app/public/wp-content/themes/test/header.php on line 95
+[24-Dec-2020 13:42:16 UTC] PHP Stack trace:
+[24-Dec-2020 13:42:16 UTC] PHP   1. {main}() /home/cedcoss/Local Sites/thememanupulation/app/public/index.php:0
+[24-Dec-2020 13:42:16 UTC] PHP   2. require() /home/cedcoss/Local Sites/thememanupulation/app/public/index.php:17
+[24-Dec-2020 13:42:16 UTC] PHP   3. require_once() /home/cedcoss/Local Sites/thememanupulation/app/public/wp-blog-header.php:19
+[24-Dec-2020 13:42:16 UTC] PHP   4. include() /home/cedcoss/Local Sites/thememanupulation/app/public/wp-includes/template-loader.php:106
+[24-Dec-2020 13:42:16 UTC] PHP   5. get_header() /home/cedcoss/Local Sites/thememanupulation/app/public/wp-content/themes/test/404.php:10
+[24-Dec-2020 13:42:16 UTC] PHP   6. locate_template() /home/cedcoss/Local Sites/thememanupulation/app/public/wp-includes/general-template.php:48
+[24-Dec-2020 13:42:16 UTC] PHP   7. load_template() /home/cedcoss/Local Sites/thememanupulation/app/public/wp-includes/template.php:676
+[24-Dec-2020 13:42:16 UTC] PHP   8. require_once() /home/cedcoss/Local Sites/thememanupulation/app/public/wp-includes/template.php:730
+[24-Dec-2020 13:42:16 UTC] PHP Warning:  Use of undefined constant get - assumed 'get' (this will throw an Error in a future version of PHP) in /home/cedcoss/Local Sites/thememanupulation/app/public/wp-content/themes/test/header.php on line 95
+[24-Dec-2020 13:42:16 UTC] PHP Warning:  Use of undefined constant get - assumed 'get' (this will throw an Error in a future version of PHP) in /home/cedcoss/Local Sites/thememanupulation/app/public/wp-content/themes/test/header.php on line 95
+[24-Dec-2020 13:42:16 UTC] PHP Stack trace:
+[24-Dec-2020 13:42:16 UTC] PHP Stack trace:
+[24-Dec-2020 13:42:16 UTC] PHP   1. {main}() /home/cedcoss/Local Sites/thememanupulation/app/public/index.php:0
+[24-Dec-2020 13:42:16 UTC] PHP   1. {main}() /home/cedcoss/Local Sites/thememanupulation/app/public/index.php:0
+[24-Dec-2020 13:42:16 UTC] PHP   2. require() /home/cedcoss/Local Sites/thememanupulation/app/public/index.php:17
+[24-Dec-2020 13:42:16 UTC] PHP   2. require() /home/cedcoss/Local Sites/thememanupulation/app/public/index.php:17
+[24-Dec-2020 13:42:16 UTC] PHP   3. require_once() /home/cedcoss/Local Sites/thememanupulation/app/public/wp-blog-header.php:19
+[24-Dec-2020 13:42:16 UTC] PHP   3. require_once() /home/cedcoss/Local Sites/thememanupulation/app/public/wp-blog-header.php:19
+[24-Dec-2020 13:42:16 UTC] PHP   4. include() /home/cedcoss/Local Sites/thememanupulation/app/public/wp-includes/template-loader.php:106
+[24-Dec-2020 13:42:16 UTC] PHP   4. include() /home/cedcoss/Local Sites/thememanupulation/app/public/wp-includes/template-loader.php:106
+[24-Dec-2020 13:42:16 UTC] PHP   5. get_header() /home/cedcoss/Local Sites/thememanupulation/app/public/wp-content/themes/test/404.php:10
+[24-Dec-2020 13:42:16 UTC] PHP   5. get_header() /home/cedcoss/Local Sites/thememanupulation/app/public/wp-content/themes/test/404.php:10
+[24-Dec-2020 13:42:16 UTC] PHP   6. locate_template() /home/cedcoss/Local Sites/thememanupulation/app/public/wp-includes/general-template.php:48
+[24-Dec-2020 13:42:16 UTC] PHP   6. locate_template() /home/cedcoss/Local Sites/thememanupulation/app/public/wp-includes/general-template.php:48
+[24-Dec-2020 13:42:16 UTC] PHP   7. load_template() /home/cedcoss/Local Sites/thememanupulation/app/public/wp-includes/template.php:676
+[24-Dec-2020 13:42:16 UTC] PHP   7. load_template() /home/cedcoss/Local Sites/thememanupulation/app/public/wp-includes/template.php:676
+[24-Dec-2020 13:42:16 UTC] PHP   8. require_once() /home/cedcoss/Local Sites/thememanupulation/app/public/wp-includes/template.php:730
+[24-Dec-2020 13:42:16 UTC] PHP   8. require_once() /home/cedcoss/Local Sites/thememanupulation/app/public/wp-includes/template.php:730
+[24-Dec-2020 13:42:16 UTC] PHP Warning:  Use of undefined constant get - assumed 'get' (this will throw an Error in a future version of PHP) in /home/cedcoss/Local Sites/thememanupulation/app/public/wp-content/themes/test/header.php on line 95
+[24-Dec-2020 13:42:16 UTC] PHP Stack trace:
+[24-Dec-2020 13:42:16 UTC] PHP   1. {main}() /home/cedcoss/Local Sites/thememanupulation/app/public/index.php:0
+[24-Dec-2020 13:42:16 UTC] PHP   2. require() /home/cedcoss/Local Sites/thememanupulation/app/public/index.php:17
+[24-Dec-2020 13:42:16 UTC] PHP   3. require_once() /home/cedcoss/Local Sites/thememanupulation/app/public/wp-blog-header.php:19
+[24-Dec-2020 13:42:16 UTC] PHP   4. include() /home/cedcoss/Local Sites/thememanupulation/app/public/wp-includes/template-loader.php:106
+[24-Dec-2020 13:42:16 UTC] PHP   5. get_header() /home/cedcoss/Local Sites/thememanupulation/app/public/wp-content/themes/test/404.php:10
+[24-Dec-2020 13:42:16 UTC] PHP   6. locate_template() /home/cedcoss/Local Sites/thememanupulation/app/public/wp-includes/general-template.php:48
+[24-Dec-2020 13:42:16 UTC] PHP   7. load_template() /home/cedcoss/Local Sites/thememanupulation/app/public/wp-includes/template.php:676
+[24-Dec-2020 13:42:16 UTC] PHP   8. require_once() /home/cedcoss/Local Sites/thememanupulation/app/public/wp-includes/template.php:730
+[24-Dec-2020 13:42:16 UTC] PHP Warning:  Use of undefined constant get - assumed 'get' (this will throw an Error in a future version of PHP) in /home/cedcoss/Local Sites/thememanupulation/app/public/wp-content/themes/test/header.php on line 95
+[24-Dec-2020 13:42:16 UTC] PHP Stack trace:
+[24-Dec-2020 13:42:16 UTC] PHP   1. {main}() /home/cedcoss/Local Sites/thememanupulation/app/public/index.php:0
+[24-Dec-2020 13:42:16 UTC] PHP   2. require() /home/cedcoss/Local Sites/thememanupulation/app/public/index.php:17
+[24-Dec-2020 13:42:16 UTC] PHP   3. require_once() /home/cedcoss/Local Sites/thememanupulation/app/public/wp-blog-header.php:19
+[24-Dec-2020 13:42:16 UTC] PHP   4. include() /home/cedcoss/Local Sites/thememanupulation/app/public/wp-includes/template-loader.php:106
+[24-Dec-2020 13:42:16 UTC] PHP   5. get_header() /home/cedcoss/Local Sites/thememanupulation/app/public/wp-content/themes/test/404.php:10
+[24-Dec-2020 13:42:16 UTC] PHP   6. locate_template() /home/cedcoss/Local Sites/thememanupulation/app/public/wp-includes/general-template.php:48
+[24-Dec-2020 13:42:16 UTC] PHP   7. load_template() /home/cedcoss/Local Sites/thememanupulation/app/public/wp-includes/template.php:676
+[24-Dec-2020 13:42:16 UTC] PHP   8. require_once() /home/cedcoss/Local Sites/thememanupulation/app/public/wp-includes/template.php:730
+[24-Dec-2020 13:42:16 UTC] PHP Warning:  Use of undefined constant get - assumed 'get' (this will throw an Error in a future version of PHP) in /home/cedcoss/Local Sites/thememanupulation/app/public/wp-content/themes/test/header.php on line 95
+[24-Dec-2020 13:42:16 UTC] PHP Stack trace:
+[24-Dec-2020 13:42:16 UTC] PHP   1. {main}() /home/cedcoss/Local Sites/thememanupulation/app/public/index.php:0
+[24-Dec-2020 13:42:16 UTC] PHP   2. require() /home/cedcoss/Local Sites/thememanupulation/app/public/index.php:17
+[24-Dec-2020 13:42:16 UTC] PHP   3. require_once() /home/cedcoss/Local Sites/thememanupulation/app/public/wp-blog-header.php:19
+[24-Dec-2020 13:42:16 UTC] PHP   4. include() /home/cedcoss/Local Sites/thememanupulation/app/public/wp-includes/template-loader.php:106
+[24-Dec-2020 13:42:16 UTC] PHP   5. get_header() /home/cedcoss/Local Sites/thememanupulation/app/public/wp-content/themes/test/404.php:10
+[24-Dec-2020 13:42:16 UTC] PHP   6. locate_template() /home/cedcoss/Local Sites/thememanupulation/app/public/wp-includes/general-template.php:48
+[24-Dec-2020 13:42:16 UTC] PHP   7. load_template() /home/cedcoss/Local Sites/thememanupulation/app/public/wp-includes/template.php:676
+[24-Dec-2020 13:42:16 UTC] PHP   8. require_once() /home/cedcoss/Local Sites/thememanupulation/app/public/wp-includes/template.php:730
+[24-Dec-2020 13:42:16 UTC] PHP Warning:  Use of undefined constant get - assumed 'get' (this will throw an Error in a future version of PHP) in /home/cedcoss/Local Sites/thememanupulation/app/public/wp-content/themes/test/header.php on line 95
+[24-Dec-2020 13:42:16 UTC] PHP Stack trace:
+[24-Dec-2020 13:42:16 UTC] PHP   1. {main}() /home/cedcoss/Local Sites/thememanupulation/app/public/index.php:0
+[24-Dec-2020 13:42:16 UTC] PHP   2. require() /home/cedcoss/Local Sites/thememanupulation/app/public/index.php:17
+[24-Dec-2020 13:42:16 UTC] PHP   3. require_once() /home/cedcoss/Local Sites/thememanupulation/app/public/wp-blog-header.php:19
+[24-Dec-2020 13:42:16 UTC] PHP   4. include() /home/cedcoss/Local Sites/thememanupulation/app/public/wp-includes/template-loader.php:106
+[24-Dec-2020 13:42:16 UTC] PHP   5. get_header() /home/cedcoss/Local Sites/thememanupulation/app/public/wp-content/themes/test/404.php:10
+[24-Dec-2020 13:42:16 UTC] PHP   6. locate_template() /home/cedcoss/Local Sites/thememanupulation/app/public/wp-includes/general-template.php:48
+[24-Dec-2020 13:42:16 UTC] PHP   7. load_template() /home/cedcoss/Local Sites/thememanupulation/app/public/wp-includes/template.php:676
+[24-Dec-2020 13:42:16 UTC] PHP   8. require_once() /home/cedcoss/Local Sites/thememanupulation/app/public/wp-includes/template.php:730
+[24-Dec-2020 13:42:16 UTC] PHP Warning:  Use of undefined constant get - assumed 'get' (this will throw an Error in a future version of PHP) in /home/cedcoss/Local Sites/thememanupulation/app/public/wp-content/themes/test/header.php on line 95
+[24-Dec-2020 13:42:16 UTC] PHP Stack trace:
+[24-Dec-2020 13:42:16 UTC] PHP   1. {main}() /home/cedcoss/Local Sites/thememanupulation/app/public/index.php:0
+[24-Dec-2020 13:42:16 UTC] PHP   2. require() /home/cedcoss/Local Sites/thememanupulation/app/public/index.php:17
+[24-Dec-2020 13:42:16 UTC] PHP   3. require_once() /home/cedcoss/Local Sites/thememanupulation/app/public/wp-blog-header.php:19
+[24-Dec-2020 13:42:16 UTC] PHP   4. include() /home/cedcoss/Local Sites/thememanupulation/app/public/wp-includes/template-loader.php:106
+[24-Dec-2020 13:42:16 UTC] PHP   5. get_header() /home/cedcoss/Local Sites/thememanupulation/app/public/wp-content/themes/test/404.php:10
+[24-Dec-2020 13:42:16 UTC] PHP   6. locate_template() /home/cedcoss/Local Sites/thememanupulation/app/public/wp-includes/general-template.php:48
+[24-Dec-2020 13:42:16 UTC] PHP   7. load_template() /home/cedcoss/Local Sites/thememanupulation/app/public/wp-includes/template.php:676
+[24-Dec-2020 13:42:16 UTC] PHP   8. require_once() /home/cedcoss/Local Sites/thememanupulation/app/public/wp-includes/template.php:730
+[24-Dec-2020 13:42:16 UTC] PHP Warning:  Use of undefined constant get - assumed 'get' (this will throw an Error in a future version of PHP) in /home/cedcoss/Local Sites/thememanupulation/app/public/wp-content/themes/test/header.php on line 95
+[24-Dec-2020 13:42:16 UTC] PHP Stack trace:
+[24-Dec-2020 13:42:16 UTC] PHP   1. {main}() /home/cedcoss/Local Sites/thememanupulation/app/public/index.php:0
+[24-Dec-2020 13:42:16 UTC] PHP   2. require() /home/cedcoss/Local Sites/thememanupulation/app/public/index.php:17
+[24-Dec-2020 13:42:16 UTC] PHP   3. require_once() /home/cedcoss/Local Sites/thememanupulation/app/public/wp-blog-header.php:19
+[24-Dec-2020 13:42:16 UTC] PHP   4. include() /home/cedcoss/Local Sites/thememanupulation/app/public/wp-includes/template-loader.php:106
+[24-Dec-2020 13:42:16 UTC] PHP   5. get_header() /home/cedcoss/Local Sites/thememanupulation/app/public/wp-content/themes/test/404.php:10
+[24-Dec-2020 13:42:16 UTC] PHP   6. locate_template() /home/cedcoss/Local Sites/thememanupulation/app/public/wp-includes/general-template.php:48
+[24-Dec-2020 13:42:16 UTC] PHP   7. load_template() /home/cedcoss/Local Sites/thememanupulation/app/public/wp-includes/template.php:676
+[24-Dec-2020 13:42:16 UTC] PHP   8. require_once() /home/cedcoss/Local Sites/thememanupulation/app/public/wp-includes/template.php:730
+[24-Dec-2020 13:42:16 UTC] PHP Warning:  Use of undefined constant get - assumed 'get' (this will throw an Error in a future version of PHP) in /home/cedcoss/Local Sites/thememanupulation/app/public/wp-content/themes/test/header.php on line 95
+[24-Dec-2020 13:42:16 UTC] PHP Stack trace:
+[24-Dec-2020 13:42:16 UTC] PHP   1. {main}() /home/cedcoss/Local Sites/thememanupulation/app/public/index.php:0
+[24-Dec-2020 13:42:16 UTC] PHP   2. require() /home/cedcoss/Local Sites/thememanupulation/app/public/index.php:17
+[24-Dec-2020 13:42:16 UTC] PHP   3. require_once() /home/cedcoss/Local Sites/thememanupulation/app/public/wp-blog-header.php:19
+[24-Dec-2020 13:42:16 UTC] PHP   4. include() /home/cedcoss/Local Sites/thememanupulation/app/public/wp-includes/template-loader.php:106
+[24-Dec-2020 13:42:16 UTC] PHP   5. get_header() /home/cedcoss/Local Sites/thememanupulation/app/public/wp-content/themes/test/404.php:10
+[24-Dec-2020 13:42:16 UTC] PHP   6. locate_template() /home/cedcoss/Local Sites/thememanupulation/app/public/wp-includes/general-template.php:48
+[24-Dec-2020 13:42:16 UTC] PHP   7. load_template() /home/cedcoss/Local Sites/thememanupulation/app/public/wp-includes/template.php:676
+[24-Dec-2020 13:42:16 UTC] PHP   8. require_once() /home/cedcoss/Local Sites/thememanupulation/app/public/wp-includes/template.php:730
+[24-Dec-2020 13:42:16 UTC] PHP Warning:  Use of undefined constant get - assumed 'get' (this will throw an Error in a future version of PHP) in /home/cedcoss/Local Sites/thememanupulation/app/public/wp-content/themes/test/header.php on line 95
+[24-Dec-2020 13:42:16 UTC] PHP Stack trace:
+[24-Dec-2020 13:42:16 UTC] PHP   1. {main}() /home/cedcoss/Local Sites/thememanupulation/app/public/index.php:0
+[24-Dec-2020 13:42:16 UTC] PHP   2. require() /home/cedcoss/Local Sites/thememanupulation/app/public/index.php:17
+[24-Dec-2020 13:42:16 UTC] PHP   3. require_once() /home/cedcoss/Local Sites/thememanupulation/app/public/wp-blog-header.php:19
+[24-Dec-2020 13:42:16 UTC] PHP   4. include() /home/cedcoss/Local Sites/thememanupulation/app/public/wp-includes/template-loader.php:106
+[24-Dec-2020 13:42:16 UTC] PHP   5. get_header() /home/cedcoss/Local Sites/thememanupulation/app/public/wp-content/themes/test/404.php:10
+[24-Dec-2020 13:42:16 UTC] PHP   6. locate_template() /home/cedcoss/Local Sites/thememanupulation/app/public/wp-includes/general-template.php:48
+[24-Dec-2020 13:42:16 UTC] PHP   7. load_template() /home/cedcoss/Local Sites/thememanupulation/app/public/wp-includes/template.php:676
+[24-Dec-2020 13:42:16 UTC] PHP   8. require_once() /home/cedcoss/Local Sites/thememanupulation/app/public/wp-includes/template.php:730
+[24-Dec-2020 13:42:16 UTC] PHP Warning:  Use of undefined constant get - assumed 'get' (this will throw an Error in a future version of PHP) in /home/cedcoss/Local Sites/thememanupulation/app/public/wp-content/themes/test/header.php on line 95
+[24-Dec-2020 13:42:16 UTC] PHP Stack trace:
+[24-Dec-2020 13:42:16 UTC] PHP   1. {main}() /home/cedcoss/Local Sites/thememanupulation/app/public/index.php:0
+[24-Dec-2020 13:42:16 UTC] PHP   2. require() /home/cedcoss/Local Sites/thememanupulation/app/public/index.php:17
+[24-Dec-2020 13:42:16 UTC] PHP   3. require_once() /home/cedcoss/Local Sites/thememanupulation/app/public/wp-blog-header.php:19
+[24-Dec-2020 13:42:16 UTC] PHP   4. include() /home/cedcoss/Local Sites/thememanupulation/app/public/wp-includes/template-loader.php:106
+[24-Dec-2020 13:42:16 UTC] PHP   5. get_header() /home/cedcoss/Local Sites/thememanupulation/app/public/wp-content/themes/test/404.php:10
+[24-Dec-2020 13:42:16 UTC] PHP   6. locate_template() /home/cedcoss/Local Sites/thememanupulation/app/public/wp-includes/general-template.php:48
+[24-Dec-2020 13:42:16 UTC] PHP   7. load_template() /home/cedcoss/Local Sites/thememanupulation/app/public/wp-includes/template.php:676
+[24-Dec-2020 13:42:16 UTC] PHP   8. require_once() /home/cedcoss/Local Sites/thememanupulation/app/public/wp-includes/template.php:730
+[24-Dec-2020 13:42:16 UTC] PHP Warning:  Use of undefined constant get - assumed 'get' (this will throw an Error in a future version of PHP) in /home/cedcoss/Local Sites/thememanupulation/app/public/wp-content/themes/test/header.php on line 95
+[24-Dec-2020 13:42:16 UTC] PHP Stack trace:
+[24-Dec-2020 13:42:16 UTC] PHP   1. {main}() /home/cedcoss/Local Sites/thememanupulation/app/public/index.php:0
+[24-Dec-2020 13:42:16 UTC] PHP   2. require() /home/cedcoss/Local Sites/thememanupulation/app/public/index.php:17
+[24-Dec-2020 13:42:16 UTC] PHP   3. require_once() /home/cedcoss/Local Sites/thememanupulation/app/public/wp-blog-header.php:19
+[24-Dec-2020 13:42:16 UTC] PHP   4. include() /home/cedcoss/Local Sites/thememanupulation/app/public/wp-includes/template-loader.php:106
+[24-Dec-2020 13:42:16 UTC] PHP   5. get_header() /home/cedcoss/Local Sites/thememanupulation/app/public/wp-content/themes/test/404.php:10
+[24-Dec-2020 13:42:16 UTC] PHP   6. locate_template() /home/cedcoss/Local Sites/thememanupulation/app/public/wp-includes/general-template.php:48
+[24-Dec-2020 13:42:16 UTC] PHP   7. load_template() /home/cedcoss/Local Sites/thememanupulation/app/public/wp-includes/template.php:676
+[24-Dec-2020 13:42:16 UTC] PHP   8. require_once() /home/cedcoss/Local Sites/thememanupulation/app/public/wp-includes/template.php:730
+[24-Dec-2020 13:42:16 UTC] PHP Warning:  Use of undefined constant get - assumed 'get' (this will throw an Error in a future version of PHP) in /home/cedcoss/Local Sites/thememanupulation/app/public/wp-content/themes/test/header.php on line 95
+[24-Dec-2020 13:42:16 UTC] PHP Stack trace:
+[24-Dec-2020 13:42:16 UTC] PHP   1. {main}() /home/cedcoss/Local Sites/thememanupulation/app/public/index.php:0
+[24-Dec-2020 13:42:16 UTC] PHP   2. require() /home/cedcoss/Local Sites/thememanupulation/app/public/index.php:17
+[24-Dec-2020 13:42:16 UTC] PHP   3. require_once() /home/cedcoss/Local Sites/thememanupulation/app/public/wp-blog-header.php:19
+[24-Dec-2020 13:42:16 UTC] PHP   4. include() /home/cedcoss/Local Sites/thememanupulation/app/public/wp-includes/template-loader.php:106
+[24-Dec-2020 13:42:16 UTC] PHP   5. get_header() /home/cedcoss/Local Sites/thememanupulation/app/public/wp-content/themes/test/404.php:10
+[24-Dec-2020 13:42:16 UTC] PHP   6. locate_template() /home/cedcoss/Local Sites/thememanupulation/app/public/wp-includes/general-template.php:48
+[24-Dec-2020 13:42:16 UTC] PHP   7. load_template() /home/cedcoss/Local Sites/thememanupulation/app/public/wp-includes/template.php:676
+[24-Dec-2020 13:42:16 UTC] PHP   8. require_once() /home/cedcoss/Local Sites/thememanupulation/app/public/wp-includes/template.php:730
+[24-Dec-2020 13:42:16 UTC] PHP Warning:  Use of undefined constant get - assumed 'get' (this will throw an Error in a future version of PHP) in /home/cedcoss/Local Sites/thememanupulation/app/public/wp-content/themes/test/header.php on line 95
+[24-Dec-2020 13:42:16 UTC] PHP Stack trace:
+[24-Dec-2020 13:42:16 UTC] PHP   1. {main}() /home/cedcoss/Local Sites/thememanupulation/app/public/index.php:0
+[24-Dec-2020 13:42:16 UTC] PHP   2. require() /home/cedcoss/Local Sites/thememanupulation/app/public/index.php:17
+[24-Dec-2020 13:42:16 UTC] PHP   3. require_once() /home/cedcoss/Local Sites/thememanupulation/app/public/wp-blog-header.php:19
+[24-Dec-2020 13:42:16 UTC] PHP   4. include() /home/cedcoss/Local Sites/thememanupulation/app/public/wp-includes/template-loader.php:106
+[24-Dec-2020 13:42:16 UTC] PHP   5. get_header() /home/cedcoss/Local Sites/thememanupulation/app/public/wp-content/themes/test/404.php:10
+[24-Dec-2020 13:42:16 UTC] PHP   6. locate_template() /home/cedcoss/Local Sites/thememanupulation/app/public/wp-includes/general-template.php:48
+[24-Dec-2020 13:42:16 UTC] PHP   7. load_template() /home/cedcoss/Local Sites/thememanupulation/app/public/wp-includes/template.php:676
+[24-Dec-2020 13:42:16 UTC] PHP   8. require_once() /home/cedcoss/Local Sites/thememanupulation/app/public/wp-includes/template.php:730
+[24-Dec-2020 13:42:16 UTC] PHP Warning:  Use of undefined constant get - assumed 'get' (this will throw an Error in a future version of PHP) in /home/cedcoss/Local Sites/thememanupulation/app/public/wp-content/themes/test/header.php on line 95
+[24-Dec-2020 13:42:16 UTC] PHP Stack trace:
+[24-Dec-2020 13:42:16 UTC] PHP   1. {main}() /home/cedcoss/Local Sites/thememanupulation/app/public/index.php:0
+[24-Dec-2020 13:42:16 UTC] PHP   2. require() /home/cedcoss/Local Sites/thememanupulation/app/public/index.php:17
+[24-Dec-2020 13:42:16 UTC] PHP   3. require_once() /home/cedcoss/Local Sites/thememanupulation/app/public/wp-blog-header.php:19
+[24-Dec-2020 13:42:16 UTC] PHP   4. include() /home/cedcoss/Local Sites/thememanupulation/app/public/wp-includes/template-loader.php:106
+[24-Dec-2020 13:42:16 UTC] PHP   5. get_header() /home/cedcoss/Local Sites/thememanupulation/app/public/wp-content/themes/test/404.php:10
+[24-Dec-2020 13:42:16 UTC] PHP   6. locate_template() /home/cedcoss/Local Sites/thememanupulation/app/public/wp-includes/general-template.php:48
+[24-Dec-2020 13:42:16 UTC] PHP   7. load_template() /home/cedcoss/Local Sites/thememanupulation/app/public/wp-includes/template.php:676
+[24-Dec-2020 13:42:16 UTC] PHP   8. require_once() /home/cedcoss/Local Sites/thememanupulation/app/public/wp-includes/template.php:730
+[24-Dec-2020 13:42:16 UTC] PHP Warning:  Use of undefined constant get - assumed 'get' (this will throw an Error in a future version of PHP) in /home/cedcoss/Local Sites/thememanupulation/app/public/wp-content/themes/test/header.php on line 95
+[24-Dec-2020 13:42:16 UTC] PHP Stack trace:
+[24-Dec-2020 13:42:16 UTC] PHP   1. {main}() /home/cedcoss/Local Sites/thememanupulation/app/public/index.php:0
+[24-Dec-2020 13:42:16 UTC] PHP   2. require() /home/cedcoss/Local Sites/thememanupulation/app/public/index.php:17
+[24-Dec-2020 13:42:16 UTC] PHP   3. require_once() /home/cedcoss/Local Sites/thememanupulation/app/public/wp-blog-header.php:19
+[24-Dec-2020 13:42:16 UTC] PHP   4. include() /home/cedcoss/Local Sites/thememanupulation/app/public/wp-includes/template-loader.php:106
+[24-Dec-2020 13:42:16 UTC] PHP   5. get_header() /home/cedcoss/Local Sites/thememanupulation/app/public/wp-content/themes/test/404.php:10
+[24-Dec-2020 13:42:16 UTC] PHP   6. locate_template() /home/cedcoss/Local Sites/thememanupulation/app/public/wp-includes/general-template.php:48
+[24-Dec-2020 13:42:16 UTC] PHP   7. load_template() /home/cedcoss/Local Sites/thememanupulation/app/public/wp-includes/template.php:676
+[24-Dec-2020 13:42:16 UTC] PHP   8. require_once() /home/cedcoss/Local Sites/thememanupulation/app/public/wp-includes/template.php:730
+[24-Dec-2020 14:13:59 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/cedcoss/Local Sites/thememanupulation/app/public/wp-content/themes/theme-manupulation/functions.php on line 161
+[24-Dec-2020 14:15:59 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/cedcoss/Local Sites/thememanupulation/app/public/wp-content/themes/theme-manupulation/functions.php on line 161
+[24-Dec-2020 14:17:59 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/cedcoss/Local Sites/thememanupulation/app/public/wp-content/themes/theme-manupulation/functions.php on line 161
+[24-Dec-2020 14:19:59 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/cedcoss/Local Sites/thememanupulation/app/public/wp-content/themes/theme-manupulation/functions.php on line 161
+[24-Dec-2020 14:21:59 UTC] PHP Parse error:  syntax error, unexpected 's' (T_STRING) in /home/cedcoss/Local Sites/thememanupulation/app/public/wp-content/themes/theme-manupulation/functions.php on line 165
+[24-Dec-2020 14:24:08 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_enque_script() in /home/cedcoss/Local Sites/thememanupulation/app/public/wp-content/themes/theme-manupulation/functions.php:160
+Stack trace:
+#0 /home/cedcoss/Local Sites/thememanupulation/app/public/wp-includes/class-wp-hook.php(287): theme_manupulation_scripts('')
+#1 /home/cedcoss/Local Sites/thememanupulation/app/public/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 /home/cedcoss/Local Sites/thememanupulation/app/public/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#3 /home/cedcoss/Local Sites/thememanupulation/app/public/wp-includes/script-loader.php(2004): do_action('wp_enqueue_scri...')
+#4 /home/cedcoss/Local Sites/thememanupulation/app/public/wp-includes/class-wp-hook.php(287): wp_enqueue_scripts('')
+#5 /home/cedcoss/Local Sites/thememanupulation/app/public/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#6 /home/cedcoss/Local Sites/thememanupulation/app/public/wp-includes/plugin.php(484): WP_Hook- in /home/cedcoss/Local Sites/thememanupulation/app/public/wp-content/themes/theme-manupulation/functions.php on line 160
+[24-Dec-2020 14:29:59 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home/cedcoss/Local Sites/thememanupulation/app/public/wp-content/themes/theme-manupulation/functions.php on line 169
+[24-Dec-2020 14:31:59 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home/cedcoss/Local Sites/thememanupulation/app/public/wp-content/themes/theme-manupulation/functions.php on line 169
+[25-Dec-2020 04:23:54 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/cedcoss/Local Sites/thememanupulation/app/public/wp-content/themes/theme-manupulation/index.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/cedcoss/Local Sites/thememanupulation/app/public/wp-content/themes/theme-manupulation/index.php on line 15
+[25-Dec-2020 04:40:47 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/cedcoss/Local Sites/thememanupulation/app/public/wp-content/themes/theme-manupulation/about.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/cedcoss/Local Sites/thememanupulation/app/public/wp-content/themes/theme-manupulation/about.php on line 15
+[25-Dec-2020 04:42:19 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/cedcoss/Local Sites/thememanupulation/app/public/wp-content/themes/theme-manupulation/about.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/cedcoss/Local Sites/thememanupulation/app/public/wp-content/themes/theme-manupulation/about.php on line 15

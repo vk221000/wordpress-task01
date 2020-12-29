@@ -317,12 +317,15 @@ header .navbar {
 }
 
 .owl-banner .item .item-content ul li a {
-	font-size: 14px;
+	/* font-size: 14px; */
 	color: #fff;
 	font-weight: 500;
 	transition: all .3s;
 }
-
+.post-categories li a{
+	color: #f48840 !important;
+	font-weight: 700;
+}
 .owl-banner .item .item-content ul li a:hover {
 	color: #f48840;
 }
@@ -434,7 +437,9 @@ header .navbar {
 	color: #20232e;
 	margin: 10px 0px 12px 0px;
 }
-
+/* .down-content h4 a{
+	color: #121212 !important;
+} */
 .blog-posts .down-content ul.post-info li {
 	display: inline-block;
 	margin-right: 8px;
@@ -446,9 +451,10 @@ header .navbar {
 	margin-left: 8px;
 }
 
-.blog-posts .down-content h4 {
+.blog-posts .down-content h4 a{
 	font-size: 20px;
 	letter-spacing: 0.25px;
+	color: #121212 !important;
 }
 
 .grid-system .down-content ul.post-info li {
@@ -686,7 +692,7 @@ ul.page-numbers li a:hover {
 	margin-top: 0px;
 }
 
-.sidebar .sidebar-heading h2 {
+.widget-title {
 	font-size: 18px;
 	text-transform: uppercase;
 	font-weight: 900;
@@ -697,7 +703,7 @@ ul.page-numbers li a:hover {
 	margin-bottom: 25px;
 }
 
-.sidebar .search input {
+.search-field {
 	width: 100%;
 	height: 50px;
 	border: 1px solid #eee;
@@ -706,10 +712,19 @@ ul.page-numbers li a:hover {
 	font-weight: 500;
 	color: #7a7a7a;
 	outline: none;
-	padding: 0px 15px;
+	padding: 0px 15px !important;
 }
-
-.sidebar .search input::placeholder {
+.search-submit{
+	border: 1px solid !important;
+    border-color: #ccc #ccc #bbb !important;
+    border-radius: 3px !important;
+    background: #e6e6e6 !important;
+    color: rgba(0, 0, 0, 0.8) !important;
+    line-height: 2 !important;
+    padding: 0.6em 1em 0.4em !important;
+}
+}
+.search-field input::placeholder {
 	color: #aaa;
 }
 
@@ -725,7 +740,7 @@ ul.page-numbers li a:hover {
 	border-bottom: none;
 }
 
-.sidebar .recent-posts ul li h5 {
+#secondary li a {
 	font-size: 19px;
 	font-weight: 900;
 	color: #20232e;
@@ -733,11 +748,11 @@ ul.page-numbers li a:hover {
 	transition: all 0.3s;
 }
 
-.sidebar .recent-posts ul li h5:hover {
+#secondary li a:hover {
 	color: #f48840;
 }
 
-.sidebar .recent-posts ul li span {
+#secondary li span {
 	display: block;
 	font-size: 14px;
 	color: #aaa;
@@ -781,7 +796,13 @@ ul.page-numbers li a:hover {
 	padding: 10px 18px;
 	transition: all .3s;
 }
-
+.cat-item a {
+	text-transform: capitalize;
+	color: #aaa !important;
+}
+.cat-item a:hover {
+	color: #f48840 !important;
+}
 .sidebar .tags ul li a:hover {
 	background-color: #f48840;
 	border-color: #f48840;
